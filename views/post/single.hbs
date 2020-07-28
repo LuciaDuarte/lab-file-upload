@@ -1,0 +1,8 @@
+<span>Created by <a href="/profile/{{ post.creatorId._id }}">{{ post.creatorId.username }}</a></span>
+
+<div class="post">
+  <p>{{ post.content }}</p>
+  {{#if post.picPath}}    
+  <img src="{{ post.picPath }}" alt="">
+  {{/if}}
+</div>

@@ -27,6 +27,14 @@
         </li>
       </ul>
     </nav>
+    <span>
+      <p><a href="/posts">Posts</a></p>
+    </span>
+    {{#if user}}
+      <span>
+        <p><a href="/create">Create Post</a></p>
+      </span>
+    {{/if}}
 
     {{{body}}}
 
